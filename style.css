@@ -1,0 +1,75 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #fdf0d5;
+}
+#nav-bar{
+    text-align: center;
+    padding: 15px;
+    background-color: #b08968;
+    color: #fff;
+}
+.wholeTasks{
+    display: flex;
+    justify-content: center;
+    margin-top: 10px;
+}
+.tasks{
+    background-color:#fefae0;
+    width: 500px;
+    padding: 20px;
+    border-radius: 12px;
+    box-shadow: 0 10px 25px rgba(0,0,0,0.1);
+}
+#taskHandler{
+    display: flex;
+    gap:10px;
+    margin: 5px;    
+}
+#taskHandler #taskAddText{
+    padding: 7px;
+    border-radius: 7px;
+    border: 1px solid #7f5539;
+    width: 390px;
+    outline: #7f5539;
+}
+#taskAdd{
+    border-radius: 7px;
+    background-color: #7f5539;
+    color: #fff;
+    padding:7px;
+}
+#todolist{
+    margin-top:10px;
+}
+#taskList span{
+    font-size: medium;
+
+}
+#taskList li{
+    list-style: none;
+    background-color: #ddb892;
+    color:#fff;
+    padding: 7px;
+    margin-bottom: 7px;
+    border-radius: 7px;
+    display: flex;
+    align-items: center;
+    gap:8px;
+}
+#taskList li button{
+    background-color: #9d6b53;
+    color: #fff;
+    padding: 7px;
+    border-radius: 7px;
+    gap:7px;
+    margin-left: 7px;
+}
+#taskList li button:first-of-type{
+    margin-left: auto;
+}
+#delete{
+    background-color:#6a040f;
+}
